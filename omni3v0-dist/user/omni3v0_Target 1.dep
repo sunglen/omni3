@@ -1,0 +1,141 @@
+Dependencies for Project 'omni3v0', Target 'Target 1': (DO NOT MODIFY !)
+F (.\startup_stm32f10x_hd.s)(0x558B9E0E)(--cpu Cortex-M3 -g --apcs=interwork -I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I Device\Include--list .\startup_stm32f10x_hd.lst --xref -o ..\obj\startup_stm32f10x_hd.o --depend ..\obj\startup_stm32f10x_hd.d)
+F (..\system\sys\sys.c)(0x55811DB4)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\board\led -I..\board\sram -I..\ntshell -I..\system\can -I..\system\delay -I..\system\sys -I..\system\usart -I..\system\xprintf -I..\user --c99-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I Device\Include-DSTM32F10X_HD -o ..\obj\sys.o --omf_browse ..\obj\sys.crf --depend ..\obj\sys.d)
+I (..\system\sys\sys.h)(0x5579017A)
+I (..\system\sys\stm32f10x.h)(0x4F1E2E3C)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\system\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\system\delay\delay.c)(0x55793C56)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\board\led -I..\board\sram -I..\ntshell -I..\system\can -I..\system\delay -I..\system\sys -I..\system\usart -I..\system\xprintf -I..\user --c99-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I Device\Include-DSTM32F10X_HD -o ..\obj\delay.o --omf_browse ..\obj\delay.crf --depend ..\obj\delay.d)
+I (..\system\delay\delay.h)(0x50BF2544)
+I (..\system\sys\sys.h)(0x5579017A)
+I (..\system\sys\stm32f10x.h)(0x4F1E2E3C)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\system\sys\system_stm32f10x.h)(0x4F1E2E3C)
+F (..\system\can\can.c)(0x559254CE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\board\led -I..\board\sram -I..\ntshell -I..\system\can -I..\system\delay -I..\system\sys -I..\system\usart -I..\system\xprintf -I..\user --c99-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I Device\Include-DSTM32F10X_HD -o ..\obj\can.o --omf_browse ..\obj\can.crf --depend ..\obj\can.d)
+I (..\system\can\can.h)(0x55925512)
+I (..\system\sys\sys.h)(0x5579017A)
+I (..\system\sys\stm32f10x.h)(0x4F1E2E3C)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\system\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\board\led\led.h)(0x55838622)
+I (..\system\delay\delay.h)(0x50BF2544)
+I (..\system\usart\usart.h)(0x55BAE89E)
+I (..\system\xprintf\xprintf.h)(0x53D42372)
+F (..\system\usart\usart.c)(0x55BAFC26)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\board\led -I..\board\sram -I..\ntshell -I..\system\can -I..\system\delay -I..\system\sys -I..\system\usart -I..\system\xprintf -I..\user --c99-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I Device\Include-DSTM32F10X_HD -o ..\obj\usart.o --omf_browse ..\obj\usart.crf --depend ..\obj\usart.d)
+I (..\system\usart\usart.h)(0x55BAE89E)
+I (..\system\sys\sys.h)(0x5579017A)
+I (..\system\sys\stm32f10x.h)(0x4F1E2E3C)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\system\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\system\xprintf\xprintf.h)(0x53D42372)
+F (..\system\xprintf\xprintf.c)(0x53D421DE)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\board\led -I..\board\sram -I..\ntshell -I..\system\can -I..\system\delay -I..\system\sys -I..\system\usart -I..\system\xprintf -I..\user --c99-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I Device\Include-DSTM32F10X_HD -o ..\obj\xprintf.o --omf_browse ..\obj\xprintf.crf --depend ..\obj\xprintf.d)
+I (..\system\xprintf\xprintf.h)(0x53D42372)
+I (d:\Keil_v5\ARM\ARMCC\include\stdarg.h)(0x52FDD27E)
+F (..\board\led\led.c)(0x5578E82A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\board\led -I..\board\sram -I..\ntshell -I..\system\can -I..\system\delay -I..\system\sys -I..\system\usart -I..\system\xprintf -I..\user --c99-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I Device\Include-DSTM32F10X_HD -o ..\obj\led.o --omf_browse ..\obj\led.crf --depend ..\obj\led.d)
+I (..\system\sys\sys.h)(0x5579017A)
+I (..\system\sys\stm32f10x.h)(0x4F1E2E3C)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\system\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\board\led\led.h)(0x55838622)
+F (..\board\sram\sram.c)(0x54BD081C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\board\led -I..\board\sram -I..\ntshell -I..\system\can -I..\system\delay -I..\system\sys -I..\system\usart -I..\system\xprintf -I..\user --c99-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I Device\Include-DSTM32F10X_HD -o ..\obj\sram.o --omf_browse ..\obj\sram.crf --depend ..\obj\sram.d)
+I (..\board\sram\sram.h)(0x54BD081C)
+I (..\system\sys\stm32f10x.h)(0x4F1E2E3C)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\system\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\system\usart\usart.h)(0x55BAE89E)
+I (..\system\sys\sys.h)(0x5579017A)
+I (..\system\xprintf\xprintf.h)(0x53D42372)
+F (..\ntshell\ntlibc.c)(0x507B1EF6)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\board\led -I..\board\sram -I..\ntshell -I..\system\can -I..\system\delay -I..\system\sys -I..\system\usart -I..\system\xprintf -I..\user --c99-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I Device\Include-DSTM32F10X_HD -o ..\obj\ntlibc.o --omf_browse ..\obj\ntlibc.crf --depend ..\obj\ntlibc.d)
+I (D:\sunge\omni3v0\ntshell\ntlibc.h)(0x50806590)
+F (..\ntshell\ntopt.c)(0x507EA2F2)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\board\led -I..\board\sram -I..\ntshell -I..\system\can -I..\system\delay -I..\system\sys -I..\system\usart -I..\system\xprintf -I..\user --c99-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I Device\Include-DSTM32F10X_HD -o ..\obj\ntopt.o --omf_browse ..\obj\ntopt.crf --depend ..\obj\ntopt.d)
+I (D:\sunge\omni3v0\ntshell\ntopt.h)(0x5081C4C4)
+I (D:\sunge\omni3v0\ntshell\ntconf.h)(0x505EBC72)
+F (..\ntshell\ntshell.c)(0x507F0A9A)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\board\led -I..\board\sram -I..\ntshell -I..\system\can -I..\system\delay -I..\system\sys -I..\system\usart -I..\system\xprintf -I..\user --c99-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I Device\Include-DSTM32F10X_HD -o ..\obj\ntshell.o --omf_browse ..\obj\ntshell.crf --depend ..\obj\ntshell.d)
+I (D:\sunge\omni3v0\ntshell\ntshell.h)(0x5081BF32)
+I (D:\sunge\omni3v0\ntshell\vtrecv.h)(0x50806590)
+I (D:\sunge\omni3v0\ntshell\vtsend.h)(0x5081BF32)
+I (D:\sunge\omni3v0\ntshell\text_editor.h)(0x50806590)
+I (D:\sunge\omni3v0\ntshell\ntconf.h)(0x505EBC72)
+I (D:\sunge\omni3v0\ntshell\text_history.h)(0x50806590)
+I (D:\sunge\omni3v0\ntshell\ntlibc.h)(0x50806590)
+F (..\ntshell\ntshell_usrcmd.c)(0x565E7702)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\board\led -I..\board\sram -I..\ntshell -I..\system\can -I..\system\delay -I..\system\sys -I..\system\usart -I..\system\xprintf -I..\user --c99-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I Device\Include-DSTM32F10X_HD -o ..\obj\ntshell_usrcmd.o --omf_browse ..\obj\ntshell_usrcmd.crf --depend ..\obj\ntshell_usrcmd.d)
+I (..\ntshell\ntopt.h)(0x5081C4C4)
+I (..\ntshell\ntconf.h)(0x505EBC72)
+I (..\ntshell\ntlibc.h)(0x50806590)
+I (..\ntshell\ntint.h)(0x505EBC76)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (..\system\xprintf\xprintf.h)(0x53D42372)
+I (..\board\led\led.h)(0x55838622)
+I (..\system\sys\sys.h)(0x5579017A)
+I (..\system\sys\stm32f10x.h)(0x4F1E2E3C)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\system\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\user\timer.h)(0x55A5CAD2)
+I (..\system\can\can.h)(0x55925512)
+I (..\system\delay\delay.h)(0x50BF2544)
+I (d:\Keil_v5\ARM\ARMCC\include\math.h)(0x52FDD27E)
+F (..\ntshell\text_editor.c)(0x507ABE8E)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\board\led -I..\board\sram -I..\ntshell -I..\system\can -I..\system\delay -I..\system\sys -I..\system\usart -I..\system\xprintf -I..\user --c99-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I Device\Include-DSTM32F10X_HD -o ..\obj\text_editor.o --omf_browse ..\obj\text_editor.crf --depend ..\obj\text_editor.d)
+I (D:\sunge\omni3v0\ntshell\text_editor.h)(0x50806590)
+I (D:\sunge\omni3v0\ntshell\ntconf.h)(0x505EBC72)
+F (..\ntshell\text_history.c)(0x507B1DDC)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\board\led -I..\board\sram -I..\ntshell -I..\system\can -I..\system\delay -I..\system\sys -I..\system\usart -I..\system\xprintf -I..\user --c99-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I Device\Include-DSTM32F10X_HD -o ..\obj\text_history.o --omf_browse ..\obj\text_history.crf --depend ..\obj\text_history.d)
+I (D:\sunge\omni3v0\ntshell\text_history.h)(0x50806590)
+I (D:\sunge\omni3v0\ntshell\ntconf.h)(0x505EBC72)
+I (D:\sunge\omni3v0\ntshell\ntlibc.h)(0x50806590)
+F (..\ntshell\vtrecv.c)(0x5042EF2C)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\board\led -I..\board\sram -I..\ntshell -I..\system\can -I..\system\delay -I..\system\sys -I..\system\usart -I..\system\xprintf -I..\user --c99-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I Device\Include-DSTM32F10X_HD -o ..\obj\vtrecv.o --omf_browse ..\obj\vtrecv.crf --depend ..\obj\vtrecv.d)
+I (D:\sunge\omni3v0\ntshell\vtrecv.h)(0x50806590)
+F (..\ntshell\vtsend.c)(0x5081BF32)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\board\led -I..\board\sram -I..\ntshell -I..\system\can -I..\system\delay -I..\system\sys -I..\system\usart -I..\system\xprintf -I..\user --c99-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I Device\Include-DSTM32F10X_HD -o ..\obj\vtsend.o --omf_browse ..\obj\vtsend.crf --depend ..\obj\vtsend.d)
+I (D:\sunge\omni3v0\ntshell\vtsend.h)(0x5081BF32)
+F (.\main.c)(0x565E740B)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\board\led -I..\board\sram -I..\ntshell -I..\system\can -I..\system\delay -I..\system\sys -I..\system\usart -I..\system\xprintf -I..\user --c99-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I Device\Include-DSTM32F10X_HD -o ..\obj\main.o --omf_browse ..\obj\main.crf --depend ..\obj\main.d)
+I (..\system\sys\sys.h)(0x5579017A)
+I (..\system\sys\stm32f10x.h)(0x4F1E2E3C)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\system\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\system\usart\usart.h)(0x55BAE89E)
+I (..\system\xprintf\xprintf.h)(0x53D42372)
+I (..\system\delay\delay.h)(0x50BF2544)
+I (..\board\led\led.h)(0x55838622)
+I (timer.h)(0x55A5CAD2)
+I (..\board\sram\sram.h)(0x54BD081C)
+I (..\system\can\can.h)(0x55925512)
+I (d:\Keil_v5\ARM\ARMCC\include\math.h)(0x52FDD27E)
+I (..\ntshell\ntshell.h)(0x5081BF32)
+I (..\ntshell\vtrecv.h)(0x50806590)
+I (..\ntshell\vtsend.h)(0x5081BF32)
+I (..\ntshell\text_editor.h)(0x50806590)
+I (..\ntshell\ntconf.h)(0x505EBC72)
+I (..\ntshell\text_history.h)(0x50806590)
+I (..\ntshell\ntlibc.h)(0x50806590)
+I (..\ntshell\ntshell_usrcmd.h)(0x53999D1A)
+F (.\timer.c)(0x565E751D)(-c --cpu Cortex-M3 -g -O0 --apcs=interwork -I..\board\led -I..\board\sram -I..\ntshell -I..\system\can -I..\system\delay -I..\system\sys -I..\system\usart -I..\system\xprintf -I..\user --c99-I d:\Keil_v5\ARM\RV31\INC-I d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include-I Device\Include-DSTM32F10X_HD -o ..\obj\timer.o --omf_browse ..\obj\timer.crf --depend ..\obj\timer.d)
+I (timer.h)(0x55A5CAD2)
+I (..\system\sys\sys.h)(0x5579017A)
+I (..\system\sys\stm32f10x.h)(0x4F1E2E3C)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cm3.h)(0x512C1E62)
+I (d:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x52FDD27E)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmInstr.h)(0x51BA6374)
+I (d:\Keil_v5\ARM\PACK\ARM\CMSIS\3.20.4\CMSIS\Include\core_cmFunc.h)(0x512C1E62)
+I (..\system\sys\system_stm32f10x.h)(0x4F1E2E3C)
+I (..\board\led\led.h)(0x55838622)
