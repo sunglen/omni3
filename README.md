@@ -1,7 +1,12 @@
-# omni3
+omni3
+====
 
-AGV with three omni wheels
-prototype developed from May to August, 2015 
+AGV with three omni wheels, prototype
 
-gcc: firmware, gcc version
-omni3v0-dist: firmware, keil version
+- gcc: firmware, gcc
+
+- omni3v0-dist: firmware, Keil uVision
+
+- doc: related documents
+
+- pcb: Eagle Schematics, PCB and Gerber files
